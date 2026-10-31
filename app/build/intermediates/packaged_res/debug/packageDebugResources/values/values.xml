@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_bg">#0B2545</color>
+    <style name="Theme.SmarC" parent="@android:style/Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.SmarC.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ic_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.SmarC</item>
+    </style>
+</resources>

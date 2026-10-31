@@ -1,0 +1,4 @@
+Backup.kt and Config.kt were found in app/src/main/java/ph/smarc/ with timestamps (Oct 27 00:27) after my previous build and
+before this one. I did not write them. They declare BackupCrypto and BackupData, which clash with the versions in Security.kt /
+Auth.kt (duplicate declarations stop the build), so they were MOVED here, unchanged and not deleted. Nothing else referenced them.
+To use them instead, delete the matching declarations in Security.kt/Auth.kt and move these files back into app/src/main/java/ph/smarc/.
